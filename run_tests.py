@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test runner script for CircularQuery.
+Test runner script for Niah.
 """
 import sys
 import subprocess
@@ -8,7 +8,7 @@ import os
 
 def run_tests():
     """Run all tests and display results."""
-    print("🧪 Running CircularQuery Test Suite...")
+    print("🧪 Running Niah Test Suite...")
     print("=" * 50)
     
     # Check if pytest is available

@@ -1,5 +1,5 @@
 """
-Configuration management for CircularQuery.
+Configuration management for Niah.
 """
 import os
 from dotenv import load_dotenv

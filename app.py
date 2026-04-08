@@ -1,5 +1,5 @@
 """
-CircularQuery - Self-service analytics made easy.
+Niah - Self-service analytics made easy.
 
 A Flask application that converts natural language questions into SQL queries
 using local LLM (Ollama), executes them against SQLite, and provides interactive

@@ -1,5 +1,5 @@
 """
-Data Story Service for CircularQuery.
+Data Story Service for Niah.
 
 Generates comprehensive data stories with AI-generated visualizations.
 Combines narrative analysis with whiteboard-style visual presentations.

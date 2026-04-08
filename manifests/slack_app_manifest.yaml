@@ -1,11 +1,11 @@
 display_information:
-  name: DBChat
-  description: "Ask Slack to query your DB with a local LLM. Returns tables, CSVs, and plots."
+  name: Niah
+  description: "Niah stands for Needle in a Haystack. Ask Slack to query your DB with an AI analyst and get tables, CSVs, and plots."
   background_color: "#2E4057"
 
 features:
   bot_user:
-    display_name: DBChat
+    display_name: Niah
     always_online: true
   slash_commands:
     - command: /dd
@@ -25,7 +25,7 @@ features:
       should_escape: false
     - command: /help
       url: https://YOUR-NGROK-DOMAIN/slack/help
-      description: Help for DBChat
+      description: Help for Niah
       should_escape: false
 oauth_config:
   scopes:

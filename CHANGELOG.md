@@ -136,7 +136,7 @@
 
 ---
 
-All notable changes to CircularQuery will be documented in this file.
+All notable changes to Niah will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -145,7 +145,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🎉 Release 1 - Major Refactoring
 
-This release represents a complete architectural overhaul of CircularQuery, transforming it from a monolithic application into a secure, modular, production-ready system.
+This release represents a complete architectural overhaul of Niah, transforming it from a monolithic application into a secure, modular, production-ready system.
 
 ### Added
 - **Modular Architecture**: Clean separation into services, routes, models, and utilities

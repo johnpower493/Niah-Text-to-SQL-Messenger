@@ -1,4 +1,6 @@
-# Zipline - Release 1
+# Niah - Release 1
+
+Niah stands for "Needle in a Haystack."
 
 ## RAG for Schema-Scoped SQL Generation (Optional)
 
@@ -40,7 +42,7 @@ Fallback behavior:
 </div>
 
 
-> Works with `/dd` (Zipline SQL assistant), CSV exports, and "Plot Data" interactivity.
+> Works with `/dd` (Niah SQL assistant), CSV exports, and "Plot Data" interactivity.
 
 ---
 
@@ -102,8 +104,8 @@ Fallback behavior:
 
 ### 2) Clone & install
 
-`git clone https://github.com/johnpower493/Zipline-Text-to-SQL-Messenger.git` \
-`cd Zipline-Text-to-SQL-Messenger` \
+`git clone https://github.com/johnpower493/Niah-Text-to-SQL-Messenger.git` \
+`cd Niah-Text-to-SQL-Messenger` \
 `python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate` \
 `pip install -r requirements.txt` \
 
@@ -185,7 +187,7 @@ ngrok http http://localhost:5000
 
 ### 7) In Slack
 
-Invite the bot/app to your channel: /invite @Zipline
+Invite the bot/app to your channel: /invite @Niah
 
 **Try Data Queries:**
 - `/dd top 5 customers by total spend`

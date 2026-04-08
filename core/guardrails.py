@@ -1,5 +1,5 @@
 """
-Enhanced SQL guardrails for CircularQuery.
+Enhanced SQL guardrails for Niah.
 Provides comprehensive security validation for SQL queries.
 """
 import re

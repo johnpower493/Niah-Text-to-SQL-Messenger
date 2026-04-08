@@ -281,7 +281,7 @@ def help_command():
         
         help_message = {
             "response_type": "in_channel",
-            "text": "🤖 How to use CircularQuery - Your AI Data Assistant",
+            "text": "🤖 How to use Niah - Your AI Data Assistant",
             "attachments": [{
                 "text": "Commands:",
                 "color": "#36a64f",

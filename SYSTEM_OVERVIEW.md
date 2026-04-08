@@ -1,8 +1,8 @@
-# CircularQuery System Overview
+# Niah System Overview
 *Last Updated: November 28, 2024*
 
 ## 🎯 **System Purpose**
-CircularQuery is a Slack-based AI data analyst that converts natural language questions into SQL queries and provides business intelligence. It offers two distinct processing modes through intelligent routing.
+Niah is a Slack-based AI data analyst that converts natural language questions into SQL queries and provides business intelligence. Niah stands for "Needle in a Haystack" and offers two distinct processing modes through intelligent routing.
 
 ## 🏗️ **Core Architecture**
 
@@ -217,4 +217,4 @@ The system includes extensive logging for troubleshooting:
 
 ---
 
-*This document serves as the definitive reference for understanding CircularQuery's architecture and capabilities. Update this file when making significant system changes.*
+*This document serves as the definitive reference for understanding Niah's architecture and capabilities. Update this file when making significant system changes.*

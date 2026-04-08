@@ -1,6 +1,6 @@
 # Deployment Guide - Release 1
 
-This guide covers deploying CircularQuery Release 1 to production.
+This guide covers deploying Niah Release 1 to production.
 
 ## Pre-Deployment Checklist
 
@@ -65,19 +65,19 @@ python app.py
 #### 5. Process Management (Recommended)
 ```bash
 # Using systemd (Linux)
-sudo nano /etc/systemd/system/data-distillery.service
+sudo nano /etc/systemd/system/niah.service
 ```
 
 **systemd service file:**
 ```ini
 [Unit]
-Description=CircularQuery
+Description=Niah
 After=network.target
 
 [Service]
 Type=simple
 User=your-user
-WorkingDirectory=/path/to/data-distillery
+WorkingDirectory=/path/to/niah
 Environment=PATH=/path/to/venv/bin
 ExecStart=/path/to/venv/bin/python app.py
 Restart=always
@@ -89,9 +89,9 @@ WantedBy=multi-user.target
 
 ```bash
 # Enable and start service
-sudo systemctl enable data-distillery
-sudo systemctl start data-distillery
-sudo systemctl status data-distillery
+sudo systemctl enable niah
+sudo systemctl start niah
+sudo systemctl status niah
 ```
 
 ### 🐳 **Option 2: Docker Deployment**
@@ -128,17 +128,17 @@ CMD ["python", "app.py"]
 #### 2. Build and Run
 ```bash
 # Build image
-docker build -t data-distillery:1.0 .
+docker build -t niah:1.0 .
 
 # Run container
 docker run -d \
-  --name data-distillery \
+  --name niah \
   --restart unless-stopped \
   -p 5000:5000 \
   -v /path/to/database:/app/data \
   -e SLACK_BOT_TOKEN=your-token \
   -e SQLITE_PATH=/app/data/chinook.db \
-  data-distillery:1.0
+  niah:1.0
 ```
 
 #### 3. Docker Compose
@@ -146,9 +146,9 @@ docker run -d \
 version: '3.8'
 
 services:
-  data-distillery:
+  niah:
     build: .
-    container_name: data-distillery
+    container_name: niah
     restart: unless-stopped
     ports:
       - "5000:5000"
@@ -370,7 +370,7 @@ netstat -tlnp | grep :5000
 - [ ] Monitoring is active
 
 ### 🎉 **Success!**
-Your CircularQuery Release 1 is now deployed and ready for production use!
+Your Niah Release 1 is now deployed and ready for production use!
 
 ---
 
